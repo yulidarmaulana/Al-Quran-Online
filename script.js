@@ -104,12 +104,10 @@ window.onload = () => {
 
   function showListAyat({ ar: arab, idn, tr: translate }) {
     return `<li class="list-group-item p-3 my-2">
-              <div class="wrapper mb-4">
-                <i class="fw-light">${idn}</i>
-              </div>
               <div class="wrapper">
-                <h6 class="fw-normal text-end">${arab}</h6>
-                <p class="fw-light text-end">${translate}</p>
+              <h6 class="fw-normal text-end">${arab}</h6>
+              <p class="fw-light text-end">${translate}</p>
+              <i class="fw-light">${idn}</i>
               </div>
             </li>`;
   }
